@@ -131,7 +131,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projects/uhlamar-projects/uhlamar" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,7 +172,7 @@
       <workItem from="1600863990043" duration="6911000" />
       <workItem from="1600948628623" duration="8996000" />
       <workItem from="1600968902024" duration="3360000" />
-      <workItem from="1601029408197" duration="6086000" />
+      <workItem from="1601029408197" duration="9309000" />
     </task>
     <servers />
   </component>
@@ -188,10 +188,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="530" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1600.860@0.0.1600.860" timestamp="1600952040375" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1601029508079">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1601040995601">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601029508079" />
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1601040995601" />
     <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1600866543991">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
