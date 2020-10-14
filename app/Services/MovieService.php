@@ -16,7 +16,6 @@ use Prettus\Validator\Exceptions\ValidatorException;
 
 class MovieService extends AbstractService
 {
-
     protected $repository;
     protected $validator;
     protected $categoryRepository;
@@ -41,18 +40,13 @@ class MovieService extends AbstractService
     {
         DB::beginTransaction();
         try {
-
             $path = $this->saveImageOnS3($request);
-
             $request->merge([
                 'image_path' => $path
             ]);
             $data = $request->except('file');
-
             $movie = $this->repository
                 ->create($data);
-
-
             DB::commit();
             return $movie;
         } catch (ValidatorException | \Exception $e) {
