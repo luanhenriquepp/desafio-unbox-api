@@ -56,7 +56,7 @@ class MovieService extends AbstractService
             DB::commit();
             return $movie;
         } catch (ValidatorException | \Exception $e) {
-            Log::info("Erro na service criar produto");
+            Log::info("Erro na service criar filme");
             Log::error($e->getMessage());
             DB::rollBack();
         }
@@ -81,7 +81,7 @@ class MovieService extends AbstractService
             $data = $request->except('file');
             return $this->repository->update($data, $id);
         } catch (ValidatorException $e) {
-            Log::info("Erro service de atualizar produto");
+            Log::info("Erro service de atualizar filme");
             Log::error($e->getMessage());
         }
 
@@ -98,7 +98,7 @@ class MovieService extends AbstractService
             $this->removeImageFromS3($store->path);
             return parent::delete($id);
         } catch (\Exception $e) {
-            Log::info("Erro ao tentar apagar produto");
+            Log::info("Erro ao tentar apagar filme");
             Log::error($e->getMessage());
         }
     }
